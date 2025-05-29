@@ -1,0 +1,25 @@
+<svg width="192" height="192" viewBox="0 0 192 192" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#059669;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#047857;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="96" cy="96" r="90" fill="url(#grad1)" />
+  
+  <!-- Dollar sign -->
+  <text x="96" y="120" 
+        font-family="Arial, sans-serif" 
+        font-size="96" 
+        font-weight="bold" 
+        text-anchor="middle" 
+        fill="white">$</text>
+        
+  <!-- Chart lines -->
+  <path d="M48 134 L64 115 L96 125 L128 96 L144 106" 
+        stroke="rgba(255,255,255,0.3)" 
+        stroke-width="3" 
+        fill="none"/>
+</svg> 
